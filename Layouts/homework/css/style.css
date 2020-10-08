@@ -1,0 +1,237 @@
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Roboto";
+}
+p {
+  font-family: "Open Sans";
+  font-style: italic;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.home_container {
+  max-width: 1140px;
+  width: 100%;
+  background-image: url(../img/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  color: white;
+}
+
+.home {
+  background-color: #030039;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  font-family: "Roboto";
+  font-size: 21px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 90px;
+  width: fit-content;
+}
+
+.home h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.home h2 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.home p {
+  width: 420px;
+  margin-bottom: 35px;
+}
+
+input {
+  font-family: "Roboto";
+  height: 40px;
+  box-sizing: border-box;
+}
+
+input[type="email"] {
+  width: 370px;
+  font-size: 16px;
+  padding: 1px 7px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  margin-left: 5px;
+  padding-left: 5px;
+  border: none;
+  background-color: #f8cc8b;
+  font-size: 16px;
+}
+form {
+  margin-bottom: 100px;
+}
+
+.education {
+  background-color: #fefaf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education_container {
+  max-width: 1140px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.education h1 {
+  color: #030039;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.education h3 {
+  color: #030039;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.education p {
+  margin-top: 10px;
+  color: #808080;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about p {
+  text-align: center;
+  max-width: 850px;
+}
+
+hr {
+  background-color: #f8cc8b;
+  border: none;
+  width: 60px;
+  height: 5px;
+}
+
+.welcome_abroad {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+.welcome_abroad img {
+  max-width: 800px;
+}
+.welcome_abroad p {
+}
+.welcome_abroad_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.gallery {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 520px;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.autism_center {
+  background-color: #030039;
+  background-image: url("../img/space-bg.png");
+}
+
+.autism_center_container {
+  max-width: 1140px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  margin: 90px auto;
+  color: white;
+}
+
+.autism_center_container h1 {
+  font-size: 40px;
+  margin: 0 auto 15px auto;
+  width: 700px;
+}
+
+.autism_center_container h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.autism_center_container p {
+  margin: 10px auto;
+  width: 820px;
+}
+
+.footer {
+  background-image: url("../img/footer-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer_container {
+  margin: 0 auto;
+  padding: 100px 0px;
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.contacts p {
+  font-family: "Roboto";
+  font-style: normal;
+  margin-top: 20px;
+  line-height: 1.6;
+}

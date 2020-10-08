@@ -1,0 +1,181 @@
+button {
+  background-color: #e4ae00;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 13px 35px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 2px;
+  align-self: center; }
+
+body {
+  margin: 0;
+  font-family: "Fresca", sans-serif;
+  background-color: #1B1E2A; }
+
+p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 14px; }
+
+main {
+  margin: 0 auto;
+  width: 960px; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  border-bottom-right-radius: 45%; }
+  .header-wrap {
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    width: 580px; }
+  .header_heading {
+    margin-top: 60px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 45px;
+    z-index: 1;
+    position: relative; }
+    .header_heading::after {
+      content: "";
+      display: block;
+      width: 229px;
+      height: 36px;
+      background-color: #ff4d30;
+      position: absolute;
+      z-index: -1;
+      bottom: 0px; }
+  .header_text {
+    margin-top: 0;
+    margin-bottom: 60px; }
+  .header_button {
+    display: inline-block;
+    margin-right: 110px; }
+
+.landing-logo {
+  display: flex;
+  align-items: center; }
+  .landing-logo p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 1.3; }
+    .landing-logo p span {
+      font-weight: 400;
+      display: block;
+      font-size: 10px;
+      padding-left: 3px; }
+
+.logoImg, .landing-logo img {
+  width: 45px;
+  height: 45px; }
+
+.login {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 16px; }
+
+.section {
+  margin: 0 auto;
+  width: 58%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 149px; }
+  .section_text {
+    margin: 20px 0;
+    text-align: center;
+    font: 600 48px "Source Sans Pro", sans-serif;
+    position: relative;
+    z-index: 1; }
+    .section_text::after {
+      content: "";
+      display: block;
+      width: 215px;
+      height: 36px;
+      background-color: #ff4d30;
+      position: absolute;
+      z-index: -1;
+      bottom: 10px;
+      right: 215px; }
+  .section_card {
+    display: flex;
+    justify-content: center;
+    background-color: #383d4f;
+    border: 10px solid #383d4f;
+    border-radius: 3px;
+    margin-bottom: 20px; }
+    .section_card_heading {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 20px; }
+    .section_card_img {
+      border-radius: 3px; }
+    .section_card_right_container {
+      padding: 40px 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section_card_right_container p {
+        color: white; }
+      .section_card_right_container a {
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 20px; }
+  .section_banner {
+    background: linear-gradient(90deg, #e4ae00, #2b5dd1);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -200px;
+    border-radius: 5px;
+    width: 108%;
+    right: -4%; }
+    .section_banner_text_wrap {
+      margin-top: 20px;
+      margin-bottom: 40px; }
+    .section_banner_heading {
+      font-size: 30px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: bold;
+      position: relative;
+      z-index: 0; }
+      .section_banner_heading::after {
+        content: "";
+        display: block;
+        width: 64px;
+        height: 35px;
+        background-color: #ff4d30;
+        position: absolute;
+        bottom: 2px;
+        left: 121px;
+        z-index: -1; }
+    .section_banner_text {
+      color: white;
+      display: table; }
+
+.footer {
+  background-color: #383D4F;
+  padding-bottom: 30px; }
+  .footer-wrap {
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end; }
+    .footer-wrap p,
+    .footer-wrap span {
+      color: white; }
+  .footer_text {
+    width: 280px; }

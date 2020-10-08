@@ -1,0 +1,105 @@
+
+.tm-col-md-reverse {
+    flex-direction: row-reverse;
+}
+
+.tm-bg-color-primary {
+    background-color: #76cdd8;
+}
+
+.tm-text-color-primary {
+    color: #76cdd8;
+}
+
+.tm-card:nth-child(-n+2):hover {
+    color: #76cdd8;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.tm-col-md-reverse:hover:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 35px solid transparent;
+    border-left: 35px solid #76cdd8;
+    border-top: 35px solid  #76cdd8;
+  }
+
+.tm-card:hover::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 35px solid transparent;
+    border-right: 35px solid #76cdd8;
+    border-top: 35px solid  #76cdd8;
+}
+
+.btn-primary, .btn-secondary {
+    background: #009a9a;
+    border-color: #009a9a;
+}
+
+.btn-primary:hover {
+    background-color: rgb(118, 205, 216);
+    border-color: rgb(118, 205, 216);
+}
+
+.tm-bg-color-secondary{
+    background-color: #009a9a;
+}
+
+.tm-form-header {
+    background: #24d4d4;
+    
+}
+
+.tm-contact-form {
+    top: -50px;
+    height: 120%;
+    z-index: 2;
+}
+
+.tm-mb-30 { 
+    margin-bottom: 30px;
+}
+
+.form-control:focus{
+    border-color: #24d4d4;
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.form-control:focus,
+.form-group select:focus {
+    border-color:#33d8d7; 
+    box-shadow: 0 0 0 0.2rem #33d8d7;
+}
+
+.tm-pricing-table {
+    border: 1px solid #009a9a;
+}
+
+.tm-pricing-table:hover{
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+.tm-pricing-table:hover .btn-secondary {
+    background-color: rgb(118, 205, 216);
+    border-color:#009a9a;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount{ 
+    display: block;
+}
+
+.tm-pricing-discount:hover {
+    display: block;
+}
+
+.tm-pricing-discount__star, .tm-pricing-discount__text {
+    color: red;
+}
